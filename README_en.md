@@ -1,5 +1,7 @@
 # CraftHead-26.3 · Craft Heads
 
+**Language / 语言:** **English** | [简体中文](README.md)
+
 **Working version for Minecraft Java `26.3`** — write a player's name into a book, drop it on the ground together with a wither skeleton skull, and you get that player's head.
 
 > **This is NOT the original author's repository.**
@@ -122,6 +124,12 @@ Other projects that also turn "wither skeleton skull + book with a player ID" in
 
 > Note: this pack reads the book's **title**, not its pages — that is the original CraftHead behaviour.
 > `Gu-ZT/CraftingHead` instead requires the ID on the **first page body**, so the two are easy to confuse.
+
+---
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
