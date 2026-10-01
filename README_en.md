@@ -100,9 +100,26 @@ Verified on a **standalone vanilla 26.3 test server**:
 
 ## License & credits
 
+The datapack implementation in this repository is released under the **MIT License** — see [LICENSE](LICENSE).
+
 - **Gameplay and concept** originate from `CraftHead` by [ruhuasiyu](https://github.com/zhangshenxing/CraftingPlusPlus/tree/master/other_datapacks/CraftHead), distributed via the [zhangshenxing/CraftingPlusPlus](https://github.com/zhangshenxing/CraftingPlusPlus) collection. The upstream repository **declares no open-source license**.
-- The 26.3 implementation here (the 5 files under the `skullcraft` namespace) shares **no code** with the 1.14 original — the NBT syntax upstream depends on no longer exists in 26.3, making this a from-scratch reimplementation targeting 26.3.
+- The 26.3 implementation here (the 5 files under the `skullcraft` namespace) shares **no code** with the 1.14 original — the NBT syntax upstream depends on no longer exists in 26.3, making this a from-scratch reimplementation targeting 26.3. The implementation can therefore be licensed independently.
 - **If the original author wants this taken down, renamed, or taken over, contact me and I will act immediately.**
+
+---
+
+## Related implementations
+
+Other projects that also turn "wither skeleton skull + book with a player ID" into a player head, but with a **different interaction**:
+
+| Project | Form | Interaction | Target |
+|---|---|---|---|
+| This repo | datapack | drop both on the **ground** next to each other | 26.3 |
+| [Gu-ZT/**CraftingHead**](https://github.com/Gu-ZT/CraftingHead) (Gugle) | Fabric **mod** | use an **anvil**: skull + written book, costs 1 XP level | 26.2 |
+| [CraftingPlusPlus / CraftHead](https://github.com/zhangshenxing/CraftingPlusPlus/tree/master/other_datapacks/CraftHead) (ruhuasiyu) | datapack | drop both on the **ground** (1.14, no longer runs on 26.3) | 1.14 |
+
+> Note: this pack reads the book's **title**, not its pages — that is the original CraftHead behaviour.
+> `Gu-ZT/CraftingHead` instead requires the ID on the **first page body**, so the two are easy to confuse.
 
 ---
 
@@ -110,4 +127,5 @@ Verified on a **standalone vanilla 26.3 test server**:
 
 - Upstream collection: https://github.com/zhangshenxing/CraftingPlusPlus
 - Upstream CraftHead folder: https://github.com/zhangshenxing/CraftingPlusPlus/tree/master/other_datapacks/CraftHead
+- Related mod (anvil-based): https://github.com/Gu-ZT/CraftingHead
 - 26.3 version (this repo): https://github.com/Pau1am/CraftHead-26.3

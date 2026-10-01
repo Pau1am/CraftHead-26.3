@@ -100,9 +100,26 @@
 
 ## 许可与致谢
 
+本仓库的数据包实现以 **MIT 许可证** 发布，详见 [LICENSE](LICENSE)。
+
 - **玩法与创意** 源自 [ruhuasiyu](https://github.com/zhangshenxing/CraftingPlusPlus/tree/master/other_datapacks/CraftHead) 的 `CraftHead`，经 [zhangshenxing/CraftingPlusPlus](https://github.com/zhangshenxing/CraftingPlusPlus) 集合仓库分发。上游仓库**未声明开源许可证**。
-- 本版的 26.3 实现（`skullcraft` 命名空间下的 5 个函数文件）与前者的 1.14 代码**没有代码级复用**——因为上游依赖的 NBT 写法在 26.3 已不存在，属于面向 26.3 的重新实现。
+- 本版的 26.3 实现（`skullcraft` 命名空间下的 5 个函数文件）与前者的 1.14 代码**没有代码级复用**——因为上游依赖的 NBT 写法在 26.3 已不存在，属于面向 26.3 的重新实现。因此本仓库的实现部分可以独立授权。
 - **若原作者希望撤下、改名或接管本仓库，请联系我，我会立即处理。**
+
+---
+
+## 相关实现
+
+同样做「凋灵骷髅头 + 写有玩家 ID 的书 → 玩家头颅」这件事，但**交互方式不同**的其他项目：
+
+| 项目 | 形式 | 交互 | 目标版本 |
+|---|---|---|---|
+| 本仓库 | 数据包 | 两者**丢在地上**靠在一起自动合成 | 26.3 |
+| [Gu-ZT/**CraftingHead**](https://github.com/Gu-ZT/CraftingHead)（Gugle） | Fabric **模组** | 放进**铁砧**：头颅 + 成书，消耗 1 级经验 | 26.2 |
+| [CraftingPlusPlus / CraftHead](https://github.com/zhangshenxing/CraftingPlusPlus/tree/master/other_datapacks/CraftHead)（ruhuasiyu） | 数据包 | 两者**丢在地上**（1.14 原版，已无法在 26.3 运行） | 1.14 |
+
+> 顺带一提：本包读取的书名是**书与笔的标题（title）**，不是书页内容——这是 CraftHead 原始玩法。
+> `Gu-ZT/CraftingHead` 则要求把 ID 写在**第一页正文**里，两者容易混淆。
 
 ---
 
@@ -116,4 +133,5 @@
 
 - 上游集合仓库：https://github.com/zhangshenxing/CraftingPlusPlus
 - 上游 CraftHead 目录：https://github.com/zhangshenxing/CraftingPlusPlus/tree/master/other_datapacks/CraftHead
+- 同概念模组（铁砧版）：https://github.com/Gu-ZT/CraftingHead
 - 26.3 版（本仓库）：https://github.com/Pau1am/CraftHead-26.3
