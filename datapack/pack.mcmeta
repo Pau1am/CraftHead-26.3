@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "min_format": 121,
+        "max_format": 121,
+        "description": "凋零骷髅头 + 成书 -> 玩家头颅 (以书名为头颅ID)"
+    }
+}

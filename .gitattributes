@@ -1,0 +1,12 @@
+# 统一换行：本仓库可能在 macOS 上克隆/打包，强制 LF
+* text=auto eol=lf
+
+# 二进制文件不做换行转换
+*.zip   binary
+*.png   binary
+*.mca   binary
+
+# mcfunction 按普通文本处理，避免 diff 被折叠
+*.mcfunction text
+*.mcmeta     text
+*.json       text
