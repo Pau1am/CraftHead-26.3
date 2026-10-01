@@ -100,7 +100,8 @@
 
 ## 许可与致谢
 
-本仓库的数据包实现以 **MIT 许可证** 发布，详见 [LICENSE](LICENSE)。
+本仓库的数据包实现——即 [`datapack/`](datapack) 目录下的全部文件（`pack.mcmeta` 与 `data/skullcraft/**`）——
+以 **MIT 许可证** 发布，详见 [LICENSE](LICENSE)。
 
 - **玩法与创意** 源自 [ruhuasiyu](https://github.com/zhangshenxing/CraftingPlusPlus/tree/master/other_datapacks/CraftHead) 的 `CraftHead`，经 [zhangshenxing/CraftingPlusPlus](https://github.com/zhangshenxing/CraftingPlusPlus) 集合仓库分发。上游仓库**未声明开源许可证**。
 - 本版的 26.3 实现（`skullcraft` 命名空间下的 5 个函数文件）与前者的 1.14 代码**没有代码级复用**——因为上游依赖的 NBT 写法在 26.3 已不存在，属于面向 26.3 的重新实现。因此本仓库的实现部分可以独立授权。

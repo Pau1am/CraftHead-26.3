@@ -100,7 +100,9 @@ Verified on a **standalone vanilla 26.3 test server**:
 
 ## License & credits
 
-The datapack implementation in this repository is released under the **MIT License** — see [LICENSE](LICENSE).
+The datapack implementation in this repository — i.e. everything under
+[`datapack/`](datapack) (`pack.mcmeta` and `data/skullcraft/**`) — is released
+under the **MIT License**, see [LICENSE](LICENSE).
 
 - **Gameplay and concept** originate from `CraftHead` by [ruhuasiyu](https://github.com/zhangshenxing/CraftingPlusPlus/tree/master/other_datapacks/CraftHead), distributed via the [zhangshenxing/CraftingPlusPlus](https://github.com/zhangshenxing/CraftingPlusPlus) collection. The upstream repository **declares no open-source license**.
 - The 26.3 implementation here (the 5 files under the `skullcraft` namespace) shares **no code** with the 1.14 original — the NBT syntax upstream depends on no longer exists in 26.3, making this a from-scratch reimplementation targeting 26.3. The implementation can therefore be licensed independently.

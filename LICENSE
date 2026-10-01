@@ -19,24 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-说明 / Note
-
-本许可证适用于本仓库中的 Minecraft 数据包实现，即
-`datapack/` 目录下的全部文件（`pack.mcmeta` 与 `data/skullcraft/**`）。
-
-「成书标题 + 凋灵骷髅头 → 对应玩家头颅」这一**玩法创意**源自
-ruhuasiyu 的 CraftHead（经 zhangshenxing/CraftingPlusPlus 集合仓库分发），
-该上游未声明开源许可证，其代码与本仓库**没有代码级复用**。
-本仓库的实现是面向 Minecraft 26.3 的重新实现。
-
-The license above applies to the datapack implementation in this repository,
-i.e. everything under `datapack/` (`pack.mcmeta` and `data/skullcraft/**`).
-
-The gameplay concept — "written book title + wither skeleton skull ->
-matching player head" — originates from CraftHead by ruhuasiyu,
-distributed via the zhangshenxing/CraftingPlusPlus collection.
-That upstream declares no open-source license, and none of its code is
-reused here; this repository is a reimplementation targeting Minecraft 26.3.
